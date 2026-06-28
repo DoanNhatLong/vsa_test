@@ -151,3 +151,4 @@ D:\0 Dotnet vsa\bank\obj\Debug\net8.0\refint\bank.dll
 D:\0 Dotnet vsa\bank\obj\Debug\net8.0\bank.pdb
 D:\0 Dotnet vsa\bank\obj\Debug\net8.0\bank.genruntimeconfig.cache
 D:\0 Dotnet vsa\bank\obj\Debug\net8.0\ref\bank.dll
+D:\0 Dotnet vsa\bank\obj\Debug\net8.0\bank.sourcelink.json

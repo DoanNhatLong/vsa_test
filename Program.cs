@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using bank.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddValidatorsFromAssemblyContaining<Program>();
+builder.Services.AddValidatorsFromAssemblyContaining<Program>(ServiceLifetime.Transient);
 builder.Services.AddFastEndpoints();
 builder.Services.SwaggerDocument();
 builder.Services.AddDbContext<AppDbContext>(options =>
